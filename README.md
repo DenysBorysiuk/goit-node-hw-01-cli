@@ -1,11 +1,11 @@
 
 
-1. [listContacts](https://monosnap.com/file/vXHaxFgJJxRuJARLB8IKfWb93HDAdN)
+1. [listContacts](https://monosnap.com/file/OEH1NeO2lehSlBrDrDXvcyqrLvCB0E)
 
-2. [getContactById](https://monosnap.com/file/2jZRhf82Jla5p98xox1hvmXaskeie3)
+2. [getContactById](https://monosnap.com/file/97lcih9rMG2xZgMNbRCkCwfIKNTSQQ)
 
-3. [addContact](https://monosnap.com/file/E3dD33awJ2JHOV8seRumOBMy2mVnqj)
+3. [addContact](https://monosnap.com/file/HXNqyaqhkn7cQFSi2rF6Stzi1vzIPr)
 
-4. [removeContact](https://monosnap.com/file/pWlhah9JIRqcGgQhGBM0Os2TMlLsU3)
+4. [removeContact](https://monosnap.com/file/dvoWhw5Jm55jNJCKRDQ4PgAtwqH0wT)
 
 
