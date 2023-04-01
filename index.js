@@ -30,12 +30,13 @@ async function invokeAction({ action, id, name, email, phone }) {
         console.warn("\x1B[31m Contact not found!");
         break;
       }
-      console.table(contact);
+      console.log(contact);
+      console.warn("\x1B[31m Contact founded!");
       break;
 
     case "add":
       const newContact = await addContact(name, email, phone);
-      console.table(newContact);
+      console.log(newContact);
       console.warn("\x1B[31m Contact added!");
       break;
 
@@ -45,7 +46,7 @@ async function invokeAction({ action, id, name, email, phone }) {
         console.warn("\x1B[31m Contact not found!");
         break;
       }
-      console.table(removedContact);
+      console.log(removedContact);
       console.warn("\x1B[31m Contact removed!");
       break;
 
