@@ -31,13 +31,11 @@ async function invokeAction({ action, id, name, email, phone }) {
         break;
       }
       console.log(contact);
-      console.warn("\x1B[31m Contact founded!");
       break;
 
     case "add":
       const newContact = await addContact(name, email, phone);
       console.log(newContact);
-      console.warn("\x1B[31m Contact added!");
       break;
 
     case "remove":
@@ -47,7 +45,6 @@ async function invokeAction({ action, id, name, email, phone }) {
         break;
       }
       console.log(removedContact);
-      console.warn("\x1B[31m Contact removed!");
       break;
 
     default:
